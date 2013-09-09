@@ -2,11 +2,11 @@ This is my template project for LaTeX using SCons as a builder. Since
 it is a personal template, it is quite opionated on certain tools,
 such as:
 
-* Use of [SCons][scons] for building the LaTeX document.
-* Use of [LuaTeX][luatex] instead of [pdfTeX][pdftex].
-* Use of [Biber][biber] instead of [BiBTeX][bibtex].
-* Use of [Emacs][emacs] and [AUCTeX][auctex] for editing the document.
-* Use of [Skim][skim] with [SyncTeX][synctex] for document viewing.
+* [SCons][scons] for building the LaTeX document.
+* [LuaTeX][luatex] instead of [pdfTeX][pdftex].
+* [Biber][biber] instead of [BiBTeX][bibtex].
+* [Emacs][emacs] and [AUCTeX][auctex] for editing the document.
+* [Skim][skim] with [SyncTeX][synctex] for document viewing.
 
 [scons]: http://scons.org/
 [luatex]: http://www.luatex.org/
