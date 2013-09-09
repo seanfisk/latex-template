@@ -31,6 +31,12 @@
 *.vrb
 *.xdy
 
+# Other LaTeX junk.
+*.fls
+
+# AUCTeX
+/auto
+
 # Ignore PDF outputs as well.
 document.pdf
 
