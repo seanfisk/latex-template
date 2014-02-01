@@ -45,3 +45,6 @@ document.pdf
 
 # Ignore rope projects.
 .ropeproject
+
+# pyenv version files.
+.python-version
