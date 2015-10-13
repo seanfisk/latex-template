@@ -1,5 +1,5 @@
 This is my template project for LaTeX using SCons as a builder. Since
-it is a personal template, it is quite opionated on certain tools,
+it is a personal template, it is quite opinionated on certain tools,
 such as:
 
 * [SCons][scons] for building the LaTeX document.
