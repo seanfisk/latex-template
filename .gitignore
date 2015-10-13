@@ -1,50 +1,20 @@
-# From GitHub LaTeX gitignore.
-*.acn
-*.acr
-*.alg
-*.aux
-*.bbl
-*.blg
-*.dvi
-*.fdb_latexmk
-*.glg
-*.glo
-*.gls
-*.idx
-*.ilg
-*.ind
-*.ist
-*.lof
-*.log
-*.lot
-*.maf
-*.mtc
-*.mtc0
-*.nav
-*.nlo
-*.out
-*.pdfsync
-*.ps
-*.snm
-*.synctex.gz
-*.toc
-*.vrb
-*.xdy
+# Python byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
 
-# Other LaTeX junk.
-*.fls
+# Waf
+## Build dir
+/build/
+## Unpackaged waflib
+## It's dot-hidden on Unix-like system, but on Windows it is just
+## labelled as a hidden directory (no dot).
+/.waf*-*-*/
+/waf*-*-*/
+## Waf lockfile
+/.lock-waf*
 
-# AUCTeX
-/auto
-
-# Ignore PDF outputs as well.
-document.pdf
-
-# SCons database.
-.sconsign.dblite
-
-# Ignore rope projects.
-.ropeproject
-
-# pyenv version files.
+# pyenv version files
 .python-version
+
+# dropped by Emacs AUCTeX
+/auto/
