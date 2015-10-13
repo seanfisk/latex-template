@@ -1,12 +1,14 @@
-This is my template project for LaTeX using SCons as a builder. Since
-it is a personal template, it is quite opinionated on certain tools,
-such as:
+This is my template project for LaTeX using [SCons][] as a builder. Since it is a personal template, it is quite opinionated on certain tools, such as:
 
-* [SCons][scons] for building the LaTeX document.
-* [LuaTeX][luatex] instead of [pdfTeX][pdftex].
-* [Biber][biber] instead of [BiBTeX][bibtex].
-* [Emacs][emacs] and [AUCTeX][auctex] for editing the document.
-* [Skim][skim] with [SyncTeX][synctex] for document viewing.
+* [SCons][] for building the LaTeX document.
+* [LuaTeX][] instead of [pdfTeX][].
+* [Biber][] instead of [BiBTeX][].
+* [Emacs][] and [AUCTeX][] for editing the document.
+* [Skim][] with [SyncTeX][] for document viewing.
+
+To see how I use this template to build my PDFs from [Emacs][emacs], please take a look at the [TeX section of my Emacs configuration][sean-tex-emacs].
+
+**Note:** This template supports multi-file documents. If you change the name of the main document (i.e., `document.tex`), be sure to change the `TeX-master` directory variable in `.dir-locals.el`.
 
 [scons]: http://scons.org/
 [luatex]: http://www.luatex.org/
@@ -17,11 +19,4 @@ such as:
 [auctex]: http://www.gnu.org/software/auctex/
 [skim]: http://skim-app.sourceforge.net/index.html
 [synctex]: http://mactex-wiki.tug.org/wiki/index.php/SyncTeX
-
-To see how I use this template to build my PDFs from [Emacs][emacs], please take a look at the [TeX section of my Emacs configuration][sean-tex-emacs].
-
 [sean-tex-emacs]: https://github.com/seanfisk/emacs/blob/sean/personal/personal-tex.el
-
-**Note:** This template supports multi-file documents. If you change
-  the name of the main document (i.e., `document.tex`), be sure to
-  change the `TeX-master` directory variable in `.dir-locals.el`.
